@@ -60,7 +60,7 @@ public class MainGUI extends JFrame {
 					//if (ConfigXML.getInstance().isBusinessLogicLocal()) facade.close();
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
-					System.out.println("Error: "+e1.toString()+" , probably problems with Business Logic or DB (changed)");
+					System.out.println("Error: "+e1.toString()+" , probablemente problemas (cast) with Business Logic or DB (changed)");
 				}
 				System.exit(1);
 			}
